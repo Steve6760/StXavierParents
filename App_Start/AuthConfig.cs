@@ -23,8 +23,8 @@ namespace StXavierParents
             //    consumerSecret: "");
 
             OAuthWebSecurity.RegisterFacebookClient(
-                appId: "",
-                appSecret: "");
+                appId: "486606834749353",
+                appSecret: "0af4977690fba89ec935d8ac92eed3d0");
 
             //OAuthWebSecurity.RegisterGoogleClient();
         }
