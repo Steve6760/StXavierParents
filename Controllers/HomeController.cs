@@ -10,21 +10,21 @@ namespace StXavierParents.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
+            ViewBag.Message = "Welcome St Xavier Parents.";
 
             return View();
         }
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your app description page.";
+            ViewBag.Message = "This site was built to help parents with some of their common questions";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Contact Steve is you have questions about the info here or new questions we have not answered yet.";
 
             return View();
         }
